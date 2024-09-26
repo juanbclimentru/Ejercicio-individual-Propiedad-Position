@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url('velas.jpg');
+    color: #fff;
+}
+
+
+nav {
+    background-color: #222121;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6347; 
+}
+
+
+#inicio {
+    padding-top: 80px;
+}
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
